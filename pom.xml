@@ -50,12 +50,6 @@
                                  <url>http://104.131.98.175:8081/nexus/content/repositories/test1-Release/</url>
                                   <layout>default</layout>
                                  </repository>
-                                 <snapshotRepository>
-                                  <uniqueVersion>true</uniqueVersion>
-                                  <id>test1-Snapshot</id>
-                                   <name>test1-Snapshot</name>
-                                    <url>http://104.131.98.175:8081/nexus/content/repositories/test1-Snapshot/</url>
-                                      <layout>legacy</layout>
-                                      </snapshotRepository>
+                                
                                     </distributionManagement>
 </project>
