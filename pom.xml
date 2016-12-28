@@ -33,8 +33,16 @@
                                 <groupId>com.github.jsimone</groupId>
                                 <artifactId>webapp-runner</artifactId>
                                 <version>7.0.22</version>
-                                <destFileName>webapp-runner.jar</destFileName>
-                              <distributionManagement>
+                              <destFileName>webapp-runner.jar</destFileName>
+                            </artifactItem>
+                        </artifactItems>
+                    </configuration>
+                </execution>
+            </executions>
+        </plugin>
+    </plugins>
+  </build>
+  <distributionManagement>
                               <repository>
                               <uniqueVersion>false</uniqueVersion>
                                <id>test1-Release</id>
@@ -50,12 +58,4 @@
                                       <layout>legacy</layout>
                                       </snapshotRepository>
                                     </distributionManagement>
-                            </artifactItem>
-                        </artifactItems>
-                    </configuration>
-                </execution>
-            </executions>
-        </plugin>
-    </plugins>
-  </build>
 </project>
