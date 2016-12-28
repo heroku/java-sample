@@ -34,6 +34,22 @@
                                 <artifactId>webapp-runner</artifactId>
                                 <version>7.0.22</version>
                                 <destFileName>webapp-runner.jar</destFileName>
+                              <distributionManagement>
+    <repository>
+      <uniqueVersion>false</uniqueVersion>
+      <id>test1-Release</id>
+      <name>test1-Release</name>
+      <url>http://104.131.98.175:8081/nexus/content/repositories/test1-Release/</url>
+      <layout>default</layout>
+    </repository>
+    <snapshotRepository>
+      <uniqueVersion>true</uniqueVersion>
+      <id>test1-Snapshot</id>
+      <name>test1-Snapshot</name>
+      <url>http://104.131.98.175:8081/nexus/content/repositories/test1-Snapshot/</url>
+      <layout>legacy</layout>
+   </snapshotRepository>
+  </distributionManagement>
                             </artifactItem>
                         </artifactItems>
                     </configuration>
